@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+  offers-service:
+    build: .
+    depends_on:
+      - elasticsearch
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/usr/node/app/
+      - /usr/node/app/node_modules/
+    # command: ["node", "index"] # start
+    command: ["nodemon", "-i", "*.spec.js", "-L", "index.js"] # watch
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.13.2
+    container_name: elasticsearch
+    environment:
+      - xpack.security.enabled=false
+      - discovery.type=single-node
+      - logger.level=WARN
+    ports:
+      - 9200:9200
+      - 9300:9300
