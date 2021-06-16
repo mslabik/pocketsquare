@@ -1,0 +1,406 @@
+[
+    {
+        "id": 74,
+        "description": "Job description - jCmwJcSwUe ",
+        "title": "Job title - dvmlHrsQIQ",
+        "salaryFrom": 1934,
+        "salaryTo": 3232,
+        "minExperience": "3",
+        "workingTime": 100,
+        "paidLeave": true,
+        "flexibleWorkingTime": true,
+        "workingWithClient": 0,
+        "bonuses": 0,
+        "tasks": [
+            "task 1",
+            "task 2",
+            "task 3"
+        ],
+        "certificates": [
+            {
+                "pl": "COREP",
+                "EN": "COREP"
+            },
+            {
+                "pl": "CQN",
+                "EN": "CQN"
+            }
+        ],
+        "educationAreas": [
+            "education area 1",
+            "education area 2",
+            "education area 3"
+        ],
+        "nthEducationAreas": [
+            "education area 1",
+            "education area 2",
+            "education area 3"
+        ],
+        "published_at": "2021-06-12T09:27:07.000Z",
+        "created_at": "2021-06-12T09:27:07.000Z",
+        "updated_at": "2021-06-12T09:27:09.000Z",
+        "hash": "ded47b8ba9cb40e8",
+        "recruitmentStages": [
+            {
+                "id": 1059,
+                "name": "zbieranie cv",
+                "duration": 5
+            },
+            {
+                "id": 1060,
+                "name": "rozmowy",
+                "duration": 7
+            }
+        ],
+        "requirements": [
+            {
+                "id": 1009,
+                "workArea": {
+                    "id": 75,
+                    "pl": "Bankowość",
+                    "created_at": "2021-06-12T09:21:19.000Z",
+                    "updated_at": "2021-06-12T09:21:20.000Z",
+                    "en": "Banking",
+                    "uid": "banking",
+                    "order": 0
+                },
+                "skills": [
+                    {
+                        "pl": "CFA",
+                        "EN": "CFA"
+                    },
+                    {
+                        "pl": "Rynek akcji",
+                        "EN": "Rynek akcji"
+                    },
+                    {
+                        "pl": "Rynek obligacji",
+                        "EN": "Rynek obligacji"
+                    }
+                ]
+            },
+            {
+                "id": 1010,
+                "workArea": {
+                    "id": 76,
+                    "pl": "Finanse",
+                    "created_at": "2021-06-12T09:21:56.000Z",
+                    "updated_at": "2021-06-12T09:21:56.000Z",
+                    "en": "Finances",
+                    "uid": "finances",
+                    "order": 0
+                },
+                "skills": [
+                    {
+                        "pl": "FINREP",
+                        "EN": "FINREP"
+                    },
+                    {
+                        "pl": "Bloomberg terminal",
+                        "EN": "Bloomberg terminal"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "description": "Najlepsza praca pod słońcem",
+        "title": "Job title - MsUQikoknI",
+        "salaryFrom": 203,
+        "salaryTo": 19544,
+        "minExperience": "3",
+        "workingTime": 100,
+        "paidLeave": true,
+        "flexibleWorkingTime": true,
+        "workingWithClient": 0,
+        "bonuses": 0,
+        "tasks": [
+            "task 1",
+            "task 2",
+            "task 3"
+        ],
+        "certificates": [
+            {
+                "pl": "COREP",
+                "EN": "COREP"
+            },
+            {
+                "pl": "CQN",
+                "EN": "CQN"
+            }
+        ],
+        "educationAreas": [
+            "education area 1",
+            "education area 2",
+            "education area 3"
+        ],
+        "nthEducationAreas": [
+            "education area 1",
+            "education area 2",
+            "education area 3"
+        ],
+        "published_at": "2021-06-12T09:27:12.000Z",
+        "created_at": "2021-06-12T09:27:12.000Z",
+        "updated_at": "2021-06-12T09:27:14.000Z",
+        "hash": "36e897ac24804993",
+        "recruitmentStages": [
+            {
+                "id": 1061,
+                "name": "zbieranie cv",
+                "duration": 14
+            },
+            {
+                "id": 1062,
+                "name": "rozmowy",
+                "duration": 70
+            }
+        ],
+        "requirements": [
+            {
+                "id": 1011,
+                "workArea": {
+                    "id": 75,
+                    "pl": "Bankowość",
+                    "created_at": "2021-06-12T09:21:19.000Z",
+                    "updated_at": "2021-06-12T09:21:20.000Z",
+                    "en": "Banking",
+                    "uid": "banking",
+                    "order": 0
+                },
+                "skills": [
+                    {
+                        "pl": "CFA",
+                        "EN": "CFA"
+                    },
+                    {
+                        "pl": "Rynek obligacji",
+                        "EN": "Rynek obligacji"
+                    }
+                ]
+            },
+            {
+                "id": 1012,
+                "workArea": {
+                    "id": 76,
+                    "pl": "Finanse",
+                    "created_at": "2021-06-12T09:21:56.000Z",
+                    "updated_at": "2021-06-12T09:21:56.000Z",
+                    "en": "Finances",
+                    "uid": "finances",
+                    "order": 0
+                },
+                "skills": [
+                    {
+                        "pl": "CFA",
+                        "EN": "CFA"
+                    },
+                    {
+                        "pl": "Rynek obligacji",
+                        "EN": "Rynek obligacji"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "description": "Job description - vlbTTmFHDY ",
+        "title": "Job title - vfkveOipzB",
+        "salaryFrom": 337,
+        "salaryTo": 17692,
+        "minExperience": "1",
+        "workingTime": 100,
+        "paidLeave": true,
+        "flexibleWorkingTime": true,
+        "workingWithClient": 0,
+        "bonuses": 0,
+        "tasks": [
+            "task 1",
+            "task 2",
+            "task 3"
+        ],
+        "certificates": [
+            {
+                "pl": "COREP",
+                "EN": "COREP"
+            },
+            {
+                "pl": "CQN",
+                "EN": "CQN"
+            }
+        ],
+        "educationAreas": [
+            "education area 1",
+            "education area 2",
+            "education area 3"
+        ],
+        "nthEducationAreas": [
+            "education area 1",
+            "education area 2",
+            "education area 3"
+        ],
+        "published_at": "2021-06-12T09:27:16.000Z",
+        "created_at": "2021-06-12T09:27:16.000Z",
+        "updated_at": "2021-06-12T09:27:18.000Z",
+        "hash": "92bd810bdf8e01d6",
+        "recruitmentStages": [
+            {
+                "id": 1063,
+                "name": "zbieranie cv",
+                "duration": 6
+            },
+            {
+                "id": 1064,
+                "name": "rozmowy",
+                "duration": 10
+            }
+        ],
+        "requirements": [
+            {
+                "id": 1013,
+                "workArea": {
+                    "id": 75,
+                    "pl": "Bankowość",
+                    "created_at": "2021-06-12T09:21:19.000Z",
+                    "updated_at": "2021-06-12T09:21:20.000Z",
+                    "en": "Banking",
+                    "uid": "banking",
+                    "order": 0
+                },
+                "skills": [
+                    {
+                        "pl": "CFA",
+                        "EN": "CFA"
+                    },
+                    {
+                        "pl": "Rynek obligacji",
+                        "EN": "Rynek obligacji"
+                    }
+                ]
+            },
+            {
+                "id": 1014,
+                "workArea": {
+                    "id": 76,
+                    "pl": "Finanse",
+                    "created_at": "2021-06-12T09:21:56.000Z",
+                    "updated_at": "2021-06-12T09:21:56.000Z",
+                    "en": "Finances",
+                    "uid": "finances",
+                    "order": 0
+                },
+                "skills": [
+                    {
+                        "pl": "CFA",
+                        "EN": "CFA"
+                    },
+                    {
+                        "pl": "Rynek obligacji",
+                        "EN": "Rynek obligacji"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "description": "Job description - zLXnDwMBky ",
+        "title": "Job title - CeErpdfyuO",
+        "salaryFrom": 10,
+        "salaryTo": 20000,
+        "minExperience": "4",
+        "workingTime": 100,
+        "paidLeave": true,
+        "flexibleWorkingTime": true,
+        "workingWithClient": 0,
+        "bonuses": 0,
+        "tasks": [
+            "task 1",
+            "task 2",
+            "task 3"
+        ],
+        "certificates": [
+            {
+                "pl": "ADX",
+                "EN": "ADX"
+            },
+            {
+                "pl": "CQN",
+                "EN": "CQN"
+            }
+        ],
+        "educationAreas": [
+            "education area 1",
+            "education area 2",
+            "education area 3"
+        ],
+        "nthEducationAreas": [
+            "education area 1",
+            "education area 2",
+            "education area 3"
+        ],
+        "published_at": "2021-06-12T09:27:20.000Z",
+        "created_at": "2021-06-12T09:27:20.000Z",
+        "updated_at": "2021-06-12T09:27:22.000Z",
+        "hash": "827226cda38ac1d3",
+        "recruitmentStages": [
+            {
+                "id": 1065,
+                "name": "zbieranie cv",
+                "duration": 6
+            },
+            {
+                "id": 1066,
+                "name": "rozmowy",
+                "duration": 7
+            }
+        ],
+        "requirements": [
+            {
+                "id": 1015,
+                "workArea": {
+                    "id": 75,
+                    "pl": "Bankowość",
+                    "created_at": "2021-06-12T09:21:19.000Z",
+                    "updated_at": "2021-06-12T09:21:20.000Z",
+                    "en": "Banking",
+                    "uid": "banking",
+                    "order": 0
+                },
+                "skills": [
+                    {
+                        "pl": "CFA",
+                        "EN": "CFA"
+                    },
+                    {
+                        "pl": "Rynek obligacji",
+                        "EN": "Rynek obligacji"
+                    }
+                ]
+            },
+            {
+                "id": 1016,
+                "workArea": {
+                    "id": 90,
+                    "pl": "Ubepieczenie",
+                    "created_at": "2021-06-12T09:21:56.000Z",
+                    "updated_at": "2021-06-12T09:21:56.000Z",
+                    "en": "Ubepieczenie",
+                    "uid": "ubezpieczenia",
+                    "order": 0
+                },
+                "skills": [
+                    {
+                        "pl": "Analiza finansowa",
+                        "EN": "Analiza finansowa"
+                    },
+                    {
+                        "pl": "Zarządzanie ryzykiem",
+                        "EN": "Zarządzanie ryzykiem"
+                    }
+                ]
+            }
+        ]
+    }
+]

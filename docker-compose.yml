@@ -2,8 +2,9 @@ version: '3.7'
 services:
   offers-service:
     build: .
+    container_name: offers-service
     depends_on:
-      - elasticsearch
+      - elasticsearch-setup
     ports:
       - '3000:3000'
     volumes:
@@ -17,7 +18,16 @@ services:
     environment:
       - xpack.security.enabled=false
       - discovery.type=single-node
-      - logger.level=WARN
+      - logger.level=ERROR
+      - cluster.routing.allocation.disk.threshold_enabled=false
     ports:
       - 9200:9200
       - 9300:9300
+  elasticsearch-setup:
+    image: badouralix/curl-jq
+    depends_on:
+      - elasticsearch
+    volumes:
+      - "./scripts:/scripts"
+    entrypoint: ["sh"]
+    command: ["/scripts/prepare-elastic.sh"]

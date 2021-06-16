@@ -12,6 +12,7 @@ async function createApp(logger) {
 
     app.register(elasticsearch, {
         node: 'http://elasticsearch:9200',
+        healthcheck: false
     });
 
 
