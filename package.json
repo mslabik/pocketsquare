@@ -16,12 +16,15 @@
   },
   "homepage": "https://github.com/mslabik/pocketsquare#readme",
   "dependencies": {
+    "bodybuilder": "^2.4.0",
     "fastify": "^3.17.0",
     "fastify-elasticsearch": "^2.0.0",
     "pino": "^6.11.3"
   },
   "devDependencies": {
+    "chai": "^4.3.4",
     "eslint": "^7.28.0",
-    "mocha": "^9.0.0"
+    "mocha": "^9.0.0",
+    "sinon": "^11.1.1"
   }
 }

@@ -5,5 +5,5 @@ const offersHandler = require('./routes/offers');
 
 module.exports = async (app) => {
     app.get('/health', healthHandler);
-    app.post('/offers', offersHandler);
+    app.get('/offers', offersHandler(this.elastic));
 };
